@@ -1,0 +1,31 @@
+{
+    "manifest_version": 3,
+    "name": "Auto Tabs Opener",
+    "version": "1.1",
+    "description": "Automatically open the tabs.",
+    "permissions": [
+      "tabs",
+      "activeTab",
+      "storage",
+      "scripting",
+      "favicon"
+    ],
+    "host_permissions": [
+      "http://*/*",
+      "https://*/*"
+    ],
+    "icons": {
+      "16": "images/tabOpener_icon_16.png" ,
+      "64": "images/tabOpener_icon_64.png" ,
+      "128": "images/tabOpener_icon_128.png"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "images/tabOpener_icon_64.png" 
+    },
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "jasontsai@extension.001"
+      }
+    }
+  }
